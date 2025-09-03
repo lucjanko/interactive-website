@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>My Hub</title>
-        <link rel="stylesheet" href="/interactive-website/main.css">
+        <link rel="stylesheet" href="../main.css">
      </head>
     <body>
       <h1>
@@ -10,7 +10,11 @@
       </h1>
       <p>
         here is the mini site in an iframe:
-        <iframe src="./mini.html" style="width: 100%; height: 300px; border: 2px solid white;"></iframe>
+        <iframe src="./mini.html" style="width: 100%; height: 300px;">
+        <!--
+        the border attribute is not needed, as it blends in with the background
+        -->
+        </iframe>
       </p>
   </body>
 </html>
